@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Artegel - Terceirização de sorvetes</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #F6EDD6">
+        <a class="navbar-brand" href="#"  style="font-size: 16pt">
+            <img src="imagens/logo-artegel-peq.png" alt="" width="200px">
+        </a>
+        <ul class="navbar-nav ml-auto" style="font-size: 12pt;text-transform: uppercase">
+            <li class="nav-item">
+                <a class="nav-link" href="#">CATÁLOGO DE SORVETES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Quem somos?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Quero terceirizar</a>
+            </li>
+        </ul>
+    </nav>
+    <div style="height: 550px; background: linear-gradient(to right bottom, #de7caa 40%,#c53b7c, #5b181a)" class="d-flex px-5 text-white mb-3">
+        <div class="align-self-center">
+            <h1>Quem é a Artegel?</h1>
+            <p>Somos uma empresa especializada em terceirização de sorvetes, conheça mais sobre nós</p>
+            <button class="btn btn-outline-light">
+                Clique para conhecer!
+            </button>
+        </div>
+        <div class="align-self-center text-right" style="width: 50%">
+            <img src="imagens/logo-artegel.png" width="450px" alt="">
+        </div>
+    </div>
+    <div class="container">
+        <h1>Já pensou em terceirização de sorvetes? Conheça a Artegel!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo illo nobis vitae voluptate adipisci itaque minus fugiat fugit voluptatem corporis consequatur rem quia cupiditate, aliquam ipsum natus, nesciunt, deleniti doloremque.</p>
+        <h2>Estes são alguns de nossos clientes que confiam em nosso trabalho!</h2>
+        <div class="d-flex justify-content-center">
+            <img class="col-3 hoverable-item" src="imagens/kibon.png" alt="">
+            <img class="col-4 hoverable-item" src="imagens/joanin.png" alt="">
+            <img class="col-4 hoverable-item" src="imagens/assai.png" alt="">
+        </div>
+        <div class="text-center">
+            <img class="col-6 hoverable-item" src="imagens/bergamini.png" alt="">
+            <img class="col-2 hoverable-item" src="imagens/unilever.png" alt="">
+        </div>
+        <div class="d-flex justify-content-center">
+            <img class="col-3 hoverable-item" src="imagens/coop.png" alt="">
+        </div>
+    </div>
+    <div>
+        <div class="btn-contato btn-light shadow">
+            <form id="form-contato" class="border-bottom pb-2" action="mailto:atendimento@artegel.com.br">
+                <div class="text-right">
+                    <button id="close-contato" class="btn btn-outline-dark ml-auto" type="button">X</button>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-12">
+                        <label>Digite seu e-mail</label>
+                        <input type="email" name="email" class="form-control" placeholder="Ex: email@exemplo.com">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-12">
+                        <label>Digite o assunto do e-mail</label>
+                        <input type="text" name="subject" class="form-control" placeholder="Ex: Quero saber pontos de venda">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-12">
+                        <label>Redija sobre o que desejar</label>
+                        <textarea name="body" class="form-control"></textarea>
+                    </div>
+                </div>
+                <input type="submit" class="btn btn-outline-dark" value="Enviar e-mail">
+            </form>
+            <span id="toggle-contato">
+                Entre em contato consoco pelo whatsapp
+                <div id="whatsapp">
+                    <strong>(11) 94009-7606</strong>
+                </div>
+                <small>clique para mais opções</small>
+            </span>
+        </div>
+    </div>
+    <div class="footer shadow">
+        <div class="py-5 border-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <ul class="navbar-nav">
+                            <h5>Links úteis</h5>
+                            <li class="navbar-item">
+                                <a href="#" class="navbar-link active">Página inicial</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <ul class="navbar-nav">
+                            <h5>Terceirização</h5>
+                            <li class="navbar-item">
+                                <a href="#" class="navbar-link active">Saiba mais</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <ul class="navbar-nav">
+                            <h5>Contato</h5>
+                            <li class="navbar-item">
+                                <a href="#" class="navbar-link active">Tire dúvidas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-5">
+            <div class="container border-top py-4">
+                <small>ATG Indústria e comércio de alimentos Ltda.</small>
+            </div>
+        </div>
+        <div class="pt-3 text-center">
+            <div class="container border-top py-4">
+                <small>Desenvolvido por Eduardo Ferreira.</small>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
